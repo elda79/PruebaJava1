@@ -5,20 +5,27 @@
  */
 package pruebajava1;
 
-/**
- *
+/*******************************************************************************
+ * Elda Solar Molina
  * @author LAB05
+ * Fecha: 30/10/2017
+ * Clase: AreaDeRectangulo
+ * Responsabilidad:Calcula el area de un rectangulo
  */
 public class AreaDeRectangulo 
 {
     public static void main(String[] args) 
     {
       // TODO code application logic here
-  int area_rectangulo = 0;
-       int base = 5;
+        //Area del Rectangulo
+  int areaRectangulo = 0;
+        //Aqui ingresamos la base 
+      int base = 5;
+      //Aqui ingresamos la altura
        int altura = 4;
-      area_rectangulo = base*altura;
-      System.out.println("El area de un rectangulo de base "+base+" y altura "+altura+" es igual a "+area_rectangulo);  
+       //Aqui realizamos el calculo de base por altura
+      areaRectangulo = base*altura;
+      System.out.println("El area de un rectangulo de base "+base+" y altura "+altura+" es igual a "+areaRectangulo);  
 }
     
         
